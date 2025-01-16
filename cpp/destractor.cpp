@@ -26,5 +26,7 @@ class Student{
 
 int main(){
  Student s1("Ragib Hasan",3.9);
+ Student s2("Galib",3.8);
  s1.getInfo();
+ s2.getInfo();
 }
