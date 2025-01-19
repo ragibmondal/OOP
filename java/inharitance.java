@@ -1,6 +1,10 @@
 //single level inheritance
 //base class and a derived class
 //multiple level inheritance
+import java.util.*;
+
+import bank;
+
 class Shape{
     public void area(){
         System.out.println("display area");
@@ -19,8 +23,7 @@ class EquilateralTriangle extends Triangle{
 }
 public class inharitance {
     public static void main(String args[]){
-     Triangle t1= new Triangle();
-     t1.color="red";
-
+        bank.Account account1 =new bank.Account();
+        account1.name="customer";
     }
 }
