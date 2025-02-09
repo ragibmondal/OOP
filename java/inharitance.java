@@ -3,7 +3,7 @@
 //multiple level inheritance
 import java.util.*;
 
-import bank;
+import amun;
 
 class Shape{
     public void area(){
@@ -23,7 +23,7 @@ class EquilateralTriangle extends Triangle{
 }
 public class inharitance {
     public static void main(String args[]){
-        bank.Account account1 =new bank.Account();
+        amun.Account account1 =new amun.Account();
         account1.name="customer";
     }
 }

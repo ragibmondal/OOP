@@ -22,7 +22,9 @@ public class polymorh {
     Student s1 =new Student();
     s1.name="ragib";
     s1.age=24;
-    s1.printInfo(s1.name,s1.age);
+    Student s2= new Student();
+    s2.name="Shariful";
+    s2.printInfo(s2.name);
     }
 
 }
